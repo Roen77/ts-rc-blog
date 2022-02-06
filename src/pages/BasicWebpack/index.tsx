@@ -1,3 +1,4 @@
+/*eslint no-useless-escape:*/
 import CodeHighlighter from "@components/CodeHighlighter";
 import React from "react";
 import "./BasicWebpack.css";
@@ -461,9 +462,7 @@ module.exports = {
       <div className="r_con">
         <h2>webpack</h2>
         <p>
-          <a href="https://webpack.js.org/" target="_blank" rel="noreferrer">
-            Webpack
-          </a>
+          <a href="https://webpack.js.org/">Webpack</a>
           이란 번들러이다.
         </p>
         <div>웹팩은 모듈들을 모아 번들링을 해주는 것!</div>
@@ -518,11 +517,7 @@ module.exports = {
                 로더는 배열형태로 작성할수도 있지만, 위처럼 options이 필요한
                 경우, 객체 형태로도 작성할 수 있다. (옵션에 대한 내용은 webpack
                 문서에서 검색하면 된다.)
-                <a
-                  href="https://webpack.js.org/loaders/style-loader/#root"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://webpack.js.org/loaders/style-loader/#root">
                   웹팩 style-laoder 옵션 설정에 관한 문서
                 </a>
               </p>
@@ -552,11 +547,7 @@ module.exports = {
               <p>
                 html-webpack-plugin은 html문서에 script 태그를 작성하지 않아도,
                 webpack.config.js에서 지정한 js 파일을 연결해준다.
-                <a
-                  href="https://github.com/jantimon/html-webpack-plugin#options"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://github.com/jantimon/html-webpack-plugin#options">
                   웹팩 html-webpack-plugin 옵션 설정에 관한 문서
                 </a>
               </p>
@@ -616,11 +607,7 @@ module.exports = {
                 정리해주는 플러그인이다. 우선 css파일을 별도로 만들고, 빌드 시,
                 css 파일에서도 hash를 부여해주자. (옵션에 대한 내용은 webpack
                 문서에서 검색하면 된다.)
-                <a
-                  href="https://webpack.js.org/plugins/mini-css-extract-plugin/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://webpack.js.org/plugins/mini-css-extract-plugin/">
                   웹팩 mini-css-extract-plugin 옵션 설정에 관한 문서
                 </a>
               </p>
@@ -682,11 +669,7 @@ module.exports = {
               <CodeHighlighter type="javascript" content={data.path23} />
               <p>
                 해당 옵션은 webpack 문서나 npm으로 검색하면 옵션 확인 가능!
-                <a
-                  href="https://github.com/jantimon/html-webpack-plugin#options"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://github.com/jantimon/html-webpack-plugin#options">
                   옵션 확인
                 </a>
               </p>
@@ -705,18 +688,10 @@ module.exports = {
               </p>
               <CodeHighlighter type="javascript" content={data.path24} />
               <p>
-                <a
-                  href="https://github.com/webpack-contrib/css-minimizer-webpack-plugin"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://github.com/webpack-contrib/css-minimizer-webpack-plugin">
                   css-minimizer-webpack-plugin 참고
                 </a>
-                <a
-                  href="https://webpack.js.org/plugins/terser-webpack-plugin/#root"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://webpack.js.org/plugins/terser-webpack-plugin/#root">
                   terser-webpack-plugin 참고
                 </a>
               </p>
@@ -776,11 +751,7 @@ module.exports = {
                 정리해주는 플러그인이다. 우선 css파일을 별도로 만들고, 빌드 시,
                 css 파일에서도 hash를 부여해주자. (옵션에 대한 내용은 webpack
                 문서에서 검색하면 된다.)
-                <a
-                  href="https://webpack.js.org/plugins/mini-css-extract-plugin/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://webpack.js.org/plugins/mini-css-extract-plugin/">
                   웹팩 mini-css-extract-plugin 옵션 설정에 관한 문서
                 </a>
               </p>
@@ -842,11 +813,7 @@ module.exports = {
               <CodeHighlighter type="javascript" content={data.path23} />
               <p>
                 해당 옵션은 webpack 문서나 npm으로 검색하면 옵션 확인 가능!
-                <a
-                  href="https://github.com/jantimon/html-webpack-plugin#options"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://github.com/jantimon/html-webpack-plugin#options">
                   옵션 확인
                 </a>
               </p>
@@ -865,18 +832,10 @@ module.exports = {
               </p>
               <CodeHighlighter type="javascript" content={data.path24} />
               <p>
-                <a
-                  href="https://github.com/webpack-contrib/css-minimizer-webpack-plugin"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://github.com/webpack-contrib/css-minimizer-webpack-plugin">
                   css-minimizer-webpack-plugin 참고
                 </a>
-                <a
-                  href="https://webpack.js.org/plugins/terser-webpack-plugin/#root"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://webpack.js.org/plugins/terser-webpack-plugin/#root">
                   terser-webpack-plugin 참고
                 </a>
               </p>
