@@ -1,0 +1,7 @@
+.today .ant-checkbox-group {
+  width: 100%;
+}
+
+.today .ant-checkbox-group .ant-checkbox-group-item {
+  display: flex;
+}
