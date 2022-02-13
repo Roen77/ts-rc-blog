@@ -14,6 +14,8 @@ import StateRedux from "@pages/StateRedux/index";
 import Work from "@pages/Work/index";
 import Compare from "@pages/Compare/index";
 import BasicWebpack from "@pages/BasicWebpack/index";
+import TsStateRedux from "@pages/TsStateRedux";
+import ReduxTool from "@pages/ReduxTool";
 
 const { Header, Sider, Content } = Layout;
 const { SubMenu } = Menu;
@@ -66,6 +68,14 @@ const App = () => {
               <Menu.Item key="s1">
                 {" "}
                 <Link to="/state/redux">리덕스</Link>
+              </Menu.Item>
+              <Menu.Item key="s1-1">
+                {" "}
+                <Link to="/state/ts-redux">리덕스(타입)</Link>
+              </Menu.Item>
+              <Menu.Item key="s1-2">
+                {" "}
+                <Link to="/state/toolkit">리덕스 툴킷</Link>
               </Menu.Item>
               <Menu.Item key="s2">SWR</Menu.Item>
               <Menu.Item key="s3">React-query</Menu.Item>
@@ -121,6 +131,8 @@ const App = () => {
             <Route path="/basic/webpack" component={BasicWebpack}></Route>
             <Route path="/compare" component={Compare}></Route>
             <Route path="/state/redux" component={StateRedux}></Route>
+            <Route path="/state/ts-redux" component={TsStateRedux}></Route>
+            <Route path="/state/toolkit" component={ReduxTool}></Route>
             <Route path="/today" component={Work}></Route>
           </Switch>
         </Content>
